@@ -7,7 +7,7 @@
 }
 
 body{
-  background: url("bg.png") no-repeat;
+  background: 'url("bg.png") no-repeat';
   background-size: cover;
   background: fixed;
 }
@@ -89,7 +89,7 @@ nav a:hover{
 .pagetxt
 { 
   color: wheat;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 700px;
   margin-right: auto;
   display: inline-block; 
@@ -102,7 +102,7 @@ nav a:hover{
   width: 30%;
   height: 20%;
   position: sticky;
-  top:20px;
+  top:60px;
 }
 
 #logo{
@@ -131,14 +131,13 @@ nav a:hover{
 #technologies
 {
   padding: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
-  justify-content: center;
+  width: 100%;
+  backdrop-filter: blur(10px);
 }
 
-#technologies li
+#technologies table
 {
-  list-style: none;
+ padding:20%;
 }
 
 
