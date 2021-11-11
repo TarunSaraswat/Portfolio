@@ -7,11 +7,124 @@
   font-family: 'Yellowtail', cursive;
   
 }
+body{
+  background: url("bg.png") no-repeat;
+  background-size: cover;
+  
+}
+
+
+.navbar .navitems{
+  width: 100%;
+  display: flex;
+  align-items: 0px auto 0px auto;
+  justify-content: space-between;
+}
+
+
+.navbar li{
+  list-style: none;
+  transition: transform .2s;
+}
+
+.navbar li:hover{
+  transform: scale(1.2);
+  }
 
 header{
-  height: 10%;
+  height: 45px;
   width: 100%;
-  background: url("") no-repeat;
+  background-color: grey;
+  opacity: 0.75;
   background-position: center;
+  position: fixed;
+  z-index: 4;
+}
 
+.navbar input[type=text] {
+  padding: 6px;
+  width: 300px;
+  border: none;
+  font-size: 10px;
+  margin-top: 0;
+  border-radius: 8px;
+  outline: none;
+}
+
+nav a{
+  list-style: none;
+  margin:0 10px;
+  color: brown;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: black;
+}
+
+
+.navbar button {
+  float: left;
+  width: 70px;
+  margin-top: 12px;
+  margin-left: 90px;
+  margin-right: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  border-radius: 16px;
+  transition: transform .2s;
+}
+
+.navbar button:hover {
+  background: #0b7dda;
+  transform: scale(1.2);
+}
+
+.pagetxt
+{ 
+  color: wheat;
+  margin-top: 100px;
+  position: static;
+  float: right;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.pagetxt img{
+  width: 30%;
+  height: 20%;
+  position: sticky;
+  top:20px;
+}
+
+#logo{
+  transition: transform .2s;
+  overflow: hidden;
+}
+
+#logo:hover{
+  transform: scale(3) translate(12px,12px);
+}
+
+@keyframes tech {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.techs{
+  animation-name: tech;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.scrolltxt{
+  position: relative;
 }
