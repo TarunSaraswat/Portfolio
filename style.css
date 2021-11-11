@@ -3,18 +3,17 @@
 *{
   margin:0px;
   padding:0px;
-  box-sizing: border-box;
   font-family: 'Yellowtail', cursive;
-  
 }
+
 body{
   background: url("bg.png") no-repeat;
   background-size: cover;
-  
+  background: fixed;
 }
 
 
-.navbar .navitems{
+.navbar{
   width: 100%;
   display: flex;
   align-items: 0px auto 0px auto;
@@ -89,10 +88,11 @@ nav a:hover{
 { 
   color: wheat;
   margin-top: 100px;
-  position: static;
-  float: right;
+  display: inline-block; 
+  justify-content: end;
   font-size: 40px;
   padding: 20px;
+  height: 1200px;
 }
 
 .pagetxt img{
@@ -125,6 +125,9 @@ nav a:hover{
   animation-iteration-count: infinite;
 }
 
-.scrolltxt{
+#technologies{
+  top: 1200px;
   position: relative;
 }
+
+
