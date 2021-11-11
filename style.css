@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Yellowtail', cursive;
+  
+}
+
+header{
+  height: 10%;
+  width: 100%;
+  background: url("") no-repeat;
+  background-position: center;
+
+}
