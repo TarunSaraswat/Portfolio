@@ -88,11 +88,10 @@ nav a:hover{
 { 
   color: wheat;
   margin-top: 100px;
-  display: inline-block; 
-  justify-content: end;
+  display: inline-table; 
   font-size: 40px;
   padding: 20px;
-  height: 1200px;
+  height: 100%;  
 }
 
 .pagetxt img{
@@ -125,9 +124,14 @@ nav a:hover{
   animation-iteration-count: infinite;
 }
 
-#technologies{
-  top: 1200px;
-  position: relative;
+#technologies
+{
+  padding: 10%;
+}
+
+#technologies li
+{
+  list-style: none;
 }
 
 
